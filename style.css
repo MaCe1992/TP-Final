@@ -1,7 +1,10 @@
+.main{
+    max-width: 800px;
+}
 .miColor{
     background-color: rgb(250, 79, 170);
 }
-.miFondo{
+.gradiente{
     background: linear-gradient(to right, rgb(126,122,246), rgb(18,159,255));
 }
 .miceleste{
@@ -10,18 +13,7 @@
 .miverde{
     background-color: rgb(20,180,150);
 }
-@media (max-width: 590px){
-    .miFuente{
-        font-size: 90%;
-    }
+.progress{
+    height: 5px;
 }
-@media (max-width: 536px){
-    .miFuente{
-        font-size: 80%;
-    }
-}
-@media (max-width: 490px){
-    .miFuente{
-        font-size: 60%;
-    }
-}
+
